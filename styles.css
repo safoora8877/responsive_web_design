@@ -1,0 +1,73 @@
+body {
+  background-image: url("https://images.stockcake.com/public/1/9/6/196205f7-732b-423b-bea9-c263d1eda3da_large/enchanted-starry-night-stockcake.jpg");
+}
+
+section {
+  background-color: white;
+  max-width: 30em;
+  opacity: 65%;
+  margin: 2em auto;
+  border-radius: 16px;
+}
+h1 {
+  text-align: center;
+  font-family: serif;
+}
+
+p {
+  text-align: center;
+}
+
+fieldset {
+  border: none;
+}
+
+.details {
+  border: 2px solid black;
+  border-radius: 4px;
+  margin: auto;
+  width: 100%;
+  max-width: 70%;
+}
+
+label {
+  margin: auto, 0;
+  display: block;
+}
+
+legend {
+  padding: 7px;
+}
+
+.question {
+  padding-left: 5px;
+  text-align: left;
+}
+
+select {
+  margin: 10px;
+  width: 300px;
+  text-align: center;
+  border: 2px, solid, black;
+}
+textarea {
+  border: 2px, solid, black;
+  margin-left: 10px;
+}
+
+.button {
+  display: block;
+  background-color: red;
+  color: white;
+  font-family: serif;
+  font-size: 16px;
+  font-style: bold;
+  width: 100%;
+  margin: 0 auto;
+  padding: 2px;
+}
+
+.button:hover {
+  background-color: white;
+  color: black;
+}
