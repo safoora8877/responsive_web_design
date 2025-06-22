@@ -1,0 +1,42 @@
+** end of index.html ** ** start of styles.css ** * {
+  box-sizing: border-box;
+}
+h1 {
+  text-align: center;
+  margin: 9px auto;
+}
+
+.italic {
+  font-style: italic;
+  text-align: center;
+  margin-left: 25px;
+}
+figure {
+  display: flex;
+  margin: 0 auto;
+  text-align: center;
+  max-width: 50%;
+  flex-direction: column;
+}
+
+figcaption a {
+  color: black;
+}
+
+figcaption a:hover {
+  color: white;
+  background-color: black;
+}
+
+img {
+  display: block;
+  padding-top: 15px;
+}
+
+#image {
+  max-width: 100%;
+}
+
+figure > #image {
+  text-align: center;
+}
