@@ -69,10 +69,14 @@ hr {
   margin: 10px auto;
 }
 
-#details {
+#detail-heading {
   padding: 25px;
   text-align: left;
   padding-left: 10px;
+  font-size: 27px;
+  font-weight: bold;
+  padding-left: 10px;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .text {
@@ -151,4 +155,11 @@ input[type="email"] {
 }
 .italics {
   font-style: italic;
+}
+
+.contact-info {
+  padding: 7px;
+  font-size: 20px;
+  color: orangered;
+  font-weight: 800;
 }
