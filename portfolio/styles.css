@@ -1,0 +1,152 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  overflow-x: hidden;
+}
+h1 {
+  font-size: 32px;
+}
+#welcome-section p {
+  font-size: 18px;
+}
+
+#welcome-section {
+  background: repeating-linear-gradient(
+    #1b403d 0%,
+    #1b403d 5%,
+
+    #3d6360 10%
+  );
+  color: white;
+
+  width: 100vw;
+  height: 250px;
+  padding-top: 120px;
+}
+
+.center {
+  text-align: center;
+  margin: 0 auto;
+}
+
+#navbar {
+  background-color: #3d6360;
+  border: 1px solid #1b403d;
+  border-radius: 8px;
+  position: fixed;
+  width: 100vw;
+}
+
+#navbar ul {
+  display: flex;
+  justify-content: flex-end;
+  gap: 2rem;
+  padding: 10px 10px 20px 0;
+}
+
+#navbar ul li {
+  list-style: none;
+  color: linen;
+  font-size: 22px;
+}
+
+#navbar ul li a {
+  color: linen;
+  text-decoration: none;
+}
+
+#navbar ul li a:hover {
+  background-color: #1b403d;
+  color: linen;
+}
+
+#navbar ul li a:active {
+  background-color: linen;
+  color: #1b403d;
+}
+
+.top-section {
+  background-color: #1b403d;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding: 20px;
+}
+
+.project-tile {
+  width: 45%;
+  text-align: center;
+}
+.project-tile img {
+  width: 250px;
+  height: 250px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.project-title {
+  margin-top: 10px;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.project-title a {
+  text-decoration: none;
+  color: linen;
+  background: linear-gradient(90deg, #1b403d, #3d6360);
+}
+
+.image-title a:hover {
+  color: linen;
+  background: #0e1a19;
+}
+#contact {
+  padding-top: 18px;
+  width: 100%;
+  height: 100px;
+  background: linear-gradient(180deg, black, #1b403d, #3d6360);
+}
+#contact h4,
+h3,
+p {
+  color: linen;
+}
+#contact h4 a {
+  color: linen;
+}
+
+@media only screen and (max-width: 650px) {
+  .portfolio-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .project-tile {
+    width: 90%;
+  }
+
+  #navbar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 0;
+    list-style: none;
+  }
+
+  #navbar li {
+    margin: 5px;
+  }
+}
